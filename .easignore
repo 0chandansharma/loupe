@@ -1,0 +1,47 @@
+# Node modules (will be reinstalled during build)
+node_modules/
+
+# Git files
+.git/
+.gitignore
+
+# Environment and editor files
+.env
+.env.*
+.vscode/
+.idea/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# macOS specific files
+.DS_Store
+
+# Large assets that can be excluded
+assets/videos/
+assets/sample-data/
+
+# Temporary files
+tmp/
+temp/
+
+# Build artifacts
+build/
+dist/
+web-build/
+
+# Large documentation files
+docs/
+*.pdf
+*.psd
+*.ai
+*.sketch
+
+# Test files
+__tests__/
+*.test.js
+*.spec.js
+coverage/
